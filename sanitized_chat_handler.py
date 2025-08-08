@@ -1,4 +1,7 @@
-
+import os
+from openai import OpenAI
+import json
+from dotenv import load_dotenv  # Add this import
 class ChatHandler:
     def __init__(self):
         self.model = "demo-mode"
